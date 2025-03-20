@@ -1,5 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
     text-align: center;
     background-color: white;
     margin: 0;
@@ -7,6 +8,9 @@ body {
 }
 
 h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: black;
     color: white;
     padding: 10px;
@@ -27,6 +31,7 @@ h1{
     width: 100px;
     height: 100px;
     border-radius: 6px;
+    
    
 }
 
@@ -34,19 +39,31 @@ h1{
     transform: scale(1.2);
 }
 
+
+#ramen-detail img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
 #ramen-detail {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     background: white;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     margin: 30px auto;
+
    
 }
 
-#ramen-detail img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  section label {
+    display: block;
+    margin: 10px 0;
 }
 
 section{
@@ -58,12 +75,18 @@ section{
    
 }
 
-  section label {
-    display: block;
-    margin: 10px 0;
+h3 {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
 }
 
-h3 {
+h4{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
     background: black;
     color: white;
     padding: 10px;
